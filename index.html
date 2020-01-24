@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <title>Sample Editor Extension</title>
     <script src="https://unpkg.com/contentful-ui-extensions-sdk@3"></script>
+
+    <style>
+      button {
+        background: plum;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        padding: 0.5rem 1rem;
+      }
+    </style>
   </head>
   <body>
-    <div id="content"></div>
+    <button>Click me!</button>
 
     <script type="text/javascript">
       window.contentfulExtension.init(function(extension) {
